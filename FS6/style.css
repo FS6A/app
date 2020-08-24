@@ -1,0 +1,140 @@
+.carousel-item {
+    height: 65vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+  
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+@media (min-width: 576px) {
+    .container { max-width: 550px ; }
+}
+
+@media (min-width: 768px) {
+    .container { max-width: 700px; }
+}
+
+@media (min-width: 992px) {
+    .container { max-width: 900px; }
+}
+
+@media (min-width: 1200px) {
+    .container { max-width: 1100px; }
+}
+
+.nav-color { background-color: #252525; }
+
+.relativeLift {
+    position: relative;
+    z-index: 1;
+}
+
+.content {
+    padding: 50px 0px;
+}
+
+.topShadow {
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+}
+
+.bottomShadow {
+    box-shadow: 0px -10px 10px rgba(0,0,0,0.1);
+}
+
+.carousel-item {
+    height: 350px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(325px, 1fr) );
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.media-card {
+    background-color: #fefefe;
+    padding: 10px;
+    border: solid 1px #ddd;
+    border-radius: 5px;
+    height: 60px;
+    box-sizing: content-box;
+    text-decoration: none !important;
+}
+
+.media-card img {
+    width: 60px;
+    height: 60px;
+    margin-right: 1em;
+}
+
+.media-card h {
+    color: #101010;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+.media-card p {
+    color: #aaaaaa;
+    font-size: 0.75em;
+    font-weight: 100;
+}
+
+.media-card-body {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.carousel-caption {
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1));
+}
+
+.appHeader img {
+    width: 100%;
+}
+
+.appHeader h5 {
+    font-weight: 700;
+}
+
+.appHeader h6 {
+    color: #777777;
+    font-weight: 300;
+}
+
+.appHeader button {
+    border-radius: 200px;
+    padding: 5px 20px;
+}
+
+#galleryHolder {
+    height: 500px;
+    overflow-x: scroll;
+}
+
+#gallery {
+    height: 100%;
+    display: inline-flex;
+}
+
+#gallery > figure {
+    height: 100%;
+    display: inline-block;
+    margin: 0;
+}
+
+#gallery > figure > a > img {
+    height: 100%;
+}
